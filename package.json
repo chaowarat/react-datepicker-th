@@ -26,7 +26,7 @@
         "url": "https://github.com/chaowarat/react-datepicker-th"
     },
     "keywords": [
-        "react-datepicker-th",
+        "react-datepicker-th"
     ],
     "peerDependencies": {
         "dayjs": "^1.11.6",
