@@ -26,16 +26,7 @@
         "url": "https://github.com/chaowarat/react-datepicker-th"
     },
     "keywords": [
-        "react-tailwindcss-datepicker",
-        "react-datepicker",
-        "tailwind-datepicker",
-        "datepicker",
-        "date-picker",
-        "daterangepicker",
-        "react-daterangepicker",
-        "date-range",
-        "date-range-picker",
-        "tailwind-daterange-picker"
+        "react-datepicker-th",
     ],
     "peerDependencies": {
         "dayjs": "^1.11.6",
