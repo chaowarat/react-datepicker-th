@@ -273,7 +273,7 @@ const Calendar: React.FC<Props> = ({
                                 hideYears();
                             }}
                         >
-                            <>{calendarData.date.locale(i18n).format("MMM")}</>
+                            <>{calendarData.date.locale(i18n).format("MMMM")}</>
                         </RoundedButton>
                     </div>
 
