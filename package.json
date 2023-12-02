@@ -1,7 +1,7 @@
 {
     "name": "react-datepicker-th",
-    "version": "1.0.3",
-    "description": "A modern React Datepicker using Tailwind CSS 3",
+    "version": "1.0.4",
+    "description": "React Datepicker using Tailwind CSS for Thai",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
         "code-style": "npm run pret && npm run lint",
         "code-style:fix": "npm run pret:fix && npm run pret:fix",
         "build": "npm run code-style && npm run clean && rollup -c",
-        "pub": "npm run build && npm publish",
+        "pub": ". ~/.nvm/nvm.sh && nvm use 14 && npm run build && npm publish",
         "dev": "next dev -p 8888",
         "prepare": "husky install"
     },

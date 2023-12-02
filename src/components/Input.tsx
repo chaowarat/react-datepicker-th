@@ -273,11 +273,7 @@ const Input: React.FC<Props> = (e: Props) => {
                 className={getClassName()}
                 disabled={disabled}
                 readOnly={readOnly}
-                placeholder={
-                    placeholder
-                        ? placeholder
-                        : `${displayFormat}${asSingle ? "" : ` ${separator} ${displayFormat}`}`
-                }
+                placeholder={placeholder ? placeholder : displayFormat()}
                 value={inputText}
                 id={inputId}
                 name={inputName}
